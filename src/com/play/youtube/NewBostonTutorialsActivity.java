@@ -27,9 +27,9 @@ public class NewBostonTutorialsActivity extends Activity {
         add.setOnClickListener(new View.OnClickListener() {
 			
 			public void onClick(View v) {
-				counter ++;
+				counter ++; 
 				display.setText(Integer.toString(counter));
-				Toast.makeText(display.getContext(), "added " + counter,Toast.LENGTH_SHORT).show();
+				Toast.makeText(display.getContext(), "added it " + counter,Toast.LENGTH_SHORT).show();
 			}
 		});
         
@@ -38,6 +38,7 @@ public class NewBostonTutorialsActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				counter --;
+				
 				display.setText(Integer.toString(counter));
 			}
 		});
