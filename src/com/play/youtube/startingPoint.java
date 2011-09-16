@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class NewBostonTutorialsActivity extends Activity {
+public class startingPoint extends Activity {
     /** Called when the activity is first created. */
 	
 	int counter;
