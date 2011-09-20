@@ -6,6 +6,16 @@
     <uses-sdk android:minSdkVersion="8" />
 
     <application android:icon="@drawable/icon">
+    
+        <activity android:name=".Splash"
+                  android:label="New Boston Tutorials"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
         <activity android:name=".startingPoint"
                   android:label="New Boston Tutorials"
                   >
@@ -14,12 +24,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Splash"
+        
+        <activity android:name=".Menu"
                   android:label="New Boston Tutorials"
                   >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="com.play.youtube.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 

@@ -23,7 +23,7 @@ public class Splash extends Activity {
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}finally{
-					Intent openStartingPoint = new Intent("com.play.youtube.STARTINGPOINT");
+					Intent openStartingPoint = new Intent("com.play.youtube.MENU");
 					startActivity(openStartingPoint);
 				}
 			}
