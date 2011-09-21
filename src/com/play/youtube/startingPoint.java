@@ -37,7 +37,12 @@ public class startingPoint extends Activity {
 			
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				counter --;
+				if (counter > 0){
+
+					counter --;
+				}else{
+					Toast.makeText(display.getContext(), "Cant be less than zero",Toast.LENGTH_SHORT).show();
+				}
 				
 				display.setText(Integer.toString(counter));
 			}
